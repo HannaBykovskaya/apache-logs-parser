@@ -1,0 +1,177 @@
+
+* {
+  background: #252533;
+}
+
+#app {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+  background: #252533;
+  color: #abbbca;
+  margin-top: 60px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  margin: 20px 0;
+  margin-bottom: 30px;
+}
+
+.nav-links button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background: #35485d;
+  color: white;
+  border: 1px solid #35485d;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.nav-links button.active {
+  background: #42b983;
+  color: white;
+  border-color: #42b983;
+}
+
+.nav-links button:hover {
+  background: #283646;
+  border-color: #283646;
+}
+
+.nav-links button.active:hover {
+  background: #36996c;
+  border-color: #36996c;
+}
+
+.component-container {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.filters input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #abbbca;
+  background-color: #35485d;
+  color: #abbbca;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  outline: none;
+  width: 180px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filters input::placeholder {
+  color: #abbbca;
+  opacity: 1;
+}
+
+.filters input:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}
+
+.filters input:hover {
+  border-color: #7a7a7a;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #929292;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+  background-color: #35485d;
+}
+
+th:hover {
+  background-color: #445b75;
+}
+
+th span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: #35485d00;
+}
+
+
+th span:hover {
+  color: white;
+}
+
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pagination button {
+  border-radius: 6px;
+  border: 1px solid #abbbca;
+  background-color: #35485d;
+  color: #abbbca;
+  font-size: 14px;
+}
+
+.pagination button:hover {
+  background-color: #445b75;
+}
+
+
+.message-cell {
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.no-logs {
+  margin: 20px 0;
+  color: #666;
+  font-style: italic;
+}
