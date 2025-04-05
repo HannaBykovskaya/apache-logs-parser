@@ -1,7 +1,7 @@
 
 # Парсер для анализа логов Apache 
 
-![Project Preview](screenshot.png) <!-- Добавьте скриншот интерфейса -->
+![Project Preview](https://github.com/HannaBykovskaya/apache-logs-parser/blob/main/home-page.png)
 
 Приложение включает в себя веб-интерфейс, реализованный на фреймворке Vue.js (находится на удаленном сервере) и REST API, представленный файлами api_access.php и api_error.php (находятся на сервере Apache).
 
