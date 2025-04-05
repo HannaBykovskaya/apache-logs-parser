@@ -8,6 +8,7 @@
 ## Основные возможности
 
 ### Логи доступа (Access Log)
+![Project Preview](https://github.com/HannaBykovskaya/apache-logs-parser/blob/main/apache-access-logs.png)
 - Табличное представление с пагинацией
 - Фильтрация по: 
   - IP-адресу
@@ -20,6 +21,7 @@
 	- HTTP-методу
 
 ### Логи ошибок (Error Log)
+![Project Preview](https://github.com/HannaBykovskaya/apache-logs-parser/blob/main/apache-error-logs.png)
 - Группировка ошибок по типам
 - Поиск по:
 	- Дате
@@ -31,9 +33,7 @@
 	- Клиентскому IP
 	- Сообщению
 
-### Технические особенности
-- Реализована пагинация на стороне сервера
-- Оптимизированная загрузка больших лог-файлов
+Для каждого компонента реализована пагинация.
 
 
 
